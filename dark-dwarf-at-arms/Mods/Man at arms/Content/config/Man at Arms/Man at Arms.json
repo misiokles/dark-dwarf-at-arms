@@ -1,0 +1,69 @@
+{
+	"manAtArms":
+	{
+		"advMapAmount" :
+		{
+
+			"max" : 18,
+			"min" : 10
+		},
+		"faction" : "castle",
+		"aiValue" : 365,
+		"attack" : 8,
+		"cost" :
+		{
+			"gold" : 240
+		},
+		"damage" :
+		{
+			"max" : 7,
+			"min" : 3
+		},
+		"defense" : 9,
+		"fightValue" : 330,
+		"graphics" :
+		{
+			"animation" : "battle/Man at Arms.def",
+			"map" : "map/Man at Arms.def",
+			"iconSmall" : "iconsSmall/Man at Arms.bmp",
+			"iconLarge" : "iconsBig/Man at Arms.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.30,
+				"idle" : 10.00,
+				"attack" : 1
+			}
+		},
+		"growth" : 7,
+		"hitPoints" : 35,
+		"level" : 3,
+
+
+		"sound" :
+		{
+			"attack": "MAGEATTK.wav",
+			"defend": "SWRDDFND.wav",
+			"killed": "SWRDKILL.wav",
+			"move": "SWRDMOVE.wav",
+			"wince": "SWRDWNCE.wav"
+		},
+		"speed" : 5,
+		"abilities" :
+		{
+			"stun":
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.blind",
+                "val" : 20 	
+			},
+			"immuneToBlind":	
+			{	
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.blind"
+			}
+		}
+	}
+}
+
+

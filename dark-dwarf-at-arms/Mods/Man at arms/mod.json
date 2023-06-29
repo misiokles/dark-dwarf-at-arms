@@ -1,0 +1,15 @@
+{
+	"name" : "Man at Arms",
+	"description" : "made by Lord Hawk from def of Alex-ander (Hota team)",
+	
+	"version" : "1.0",
+	"author" : "Lord Hawk",
+	"contact" : "http://www.forum.acidcave.net/topic.php?TID=890&page=29#71206",
+	"modType" : "Creatures",
+	
+	"creatures" :
+	[
+		"config/Man at Arms/Man at Arms.json",
+		"config/Man at Arms/creature-texts.json"
+	]
+}

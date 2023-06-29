@@ -1,0 +1,87 @@
+{
+	"darkElemental":
+	{
+		"name" :
+		{
+			"plural" : "Dark Elementals",
+			"singular" : "Dark Elemental"
+		},
+		"advMapAmount" :
+		{
+
+			"max" : 8,
+			"min" : 4
+		},
+		"faction" : "inferno",
+		"aiValue" : 356,
+		"attack" : 16,
+		"cost" :
+		{
+			"gold" : 1450
+		},
+		"damage" :
+		{
+			"max" : 30,
+			"min" : 20
+		},
+		"defense" : 12,
+		"fightValue" : 354,
+		"graphics" :
+		{
+			"animation" : "battle/Dark elemental.def",
+			"map" : "map/Dark elemental.def",
+			"iconSmall" : "iconsSmall/Dark elemental.bmp",
+			"iconLarge" : "iconsBig/Dark elemental.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.30,
+				"idle" : 10.00,
+				"attack" : 1
+			}
+		},
+		"growth" : 2,
+		"hitPoints" : 90,
+		"level" : 6,
+
+
+		"sound" :
+		{
+			"attack": "EFRTATTK.wav",
+			"defend": "EFRTDFND.wav",
+			"killed": "EFRTKILL.wav",
+			"move": "EFRTMOVE.wav",
+			"wince": "EFRTWNCE.wav"
+		},
+		"speed" : 11,
+		"abilities" :
+		{
+			"non-living":
+			{
+				"type" : "NON_LIVING"
+			},
+			"mindImmunity":
+			{
+				"type" : "MIND_IMMUNITY"	
+			},
+			"flying":
+			{
+				"type" : "FLYING"
+			},
+			"fear":
+			{
+				"type" : "FEAR"	
+			},
+			"noRetaliation":
+			{
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"fearless":
+			{
+				"type" : "FEARLESS"
+			}
+		}
+	}
+}
+
+

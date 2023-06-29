@@ -1,0 +1,17 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"temple" : {
+				"name" : "Dark Temple",
+				"creatures" : [[ "darkElemental" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "map/Dark Temple.def",
+	
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			} 
+		}
+	}
+}

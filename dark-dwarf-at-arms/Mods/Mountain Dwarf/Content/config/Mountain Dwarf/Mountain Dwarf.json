@@ -1,0 +1,68 @@
+{
+	"mountainDwarf":
+	{
+		"advMapAmount" :
+		{
+
+			"max" : 24,
+			"min" : 15
+		},
+		"faction" : "neutral",
+		"aiValue" : 207,
+		"attack" : 6,
+		"cost" :
+		{
+			"gold" : 165
+		},
+		"damage" :
+		{
+			"max" : 5,
+			"min" : 2
+		},
+		"defense" : 9,
+		"fightValue" : 215,
+		"graphics" :
+		{
+			"animation" : "battle/Mountain Dwarf.def",
+			"map" : "map/Mountain Dwarf.def",
+			"iconSmall" : "iconsSmall/Mountain Dwarf.bmp",
+			"iconLarge" : "iconsBig/Mountain Dwarf.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.20,
+				"idle" : 10.00,
+				"attack" : 1
+			}
+		},
+		"growth" : 8,
+		"hitPoints" : 20,
+		"level" : 2,
+
+
+		"sound" :
+		{
+			"attack": "OORCATTK.wav",
+			"defend": "OORCDFND.wav",
+			"killed": "DWRFKILL.wav",
+			"move": "DWRFMOVE.wav",
+			"wince": "DWRFWNCE.wav"
+		},
+		"speed" : 4,
+		"abilities" :
+		{
+			"resistance":
+			{
+				"type" : "MAGIC_RESISTANCE", 
+				"val" : 20 	
+			},
+			"waterImmunity":
+			{
+				"type" : "WATER_IMMUNITY",
+				"subtype" : 2 	
+			}
+		}
+	}
+}
+
+
