@@ -58,8 +58,9 @@
 			},
 			"waterImmunity":
 			{
-				"type" : "WATER_IMMUNITY",
-				"subtype" : 2 	
+				"subtype" : 2,
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 100
 			}
 		}
 	}
